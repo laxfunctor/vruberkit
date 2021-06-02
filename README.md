@@ -1,5 +1,7 @@
 # VTuber kit
 
+Use Ubuntu 20.04.
+
 ## Install OpenCV
 
 Download the source code `opencv-4.x.x.zip`
@@ -23,6 +25,6 @@ $ sudo ldconfig
 ```
 $ mkdir build
 $ cd ./build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ cmake ..
 $ make
 ```
